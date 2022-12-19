@@ -11,4 +11,3 @@ public class Data {
         this.data = data;
     }
 }
-

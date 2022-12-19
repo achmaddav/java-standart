@@ -1,9 +1,6 @@
 package numberClass;
-
 import java.math.BigDecimal;
-
 public class MainBigNumber {
-
     public static void main(String[] args) {
         BigDecimal number1 = new BigDecimal("12000000000.00");
         System.out.println("Number 1 "+ number1);
@@ -17,6 +14,6 @@ public class MainBigNumber {
 
         Double doubleValue = number1.doubleValue();
         System.out.println("\nDouble value "+ doubleValue);
-
     }
+
 }
